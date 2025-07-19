@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.FlameSplashScreen" parent="android:Theme.Material.Light.NoActionBar" >
+    <!--customize here -->
+        <item name="colorPrimary">@color/purple_500</item>
+    </style>
+
+    <style name="Theme.App.FlameSplashScreen" parent="Base.Theme.FlameSplashScreen"/>
+
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/flame</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/flamelogo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.FlameSplashScreen</item>
+    </style>
+</resources>

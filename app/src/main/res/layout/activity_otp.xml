@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 2FA Code"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etTwoFactorCode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="6-digit code"
+        android:inputType="number"
+        android:maxLength="6"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnVerify2FA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Verify"
+        android:backgroundTint="#0047AB"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

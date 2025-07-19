@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FlameGuard</string>
+
+
+    <string name="note_text">
+    During a fire, early warning from a smoke alarm plus a fire escape plan that has been practiced regularly can help save lives.<br/><br/>
+    <b>Learn what else to do to keep your loved ones safe.</b></string>
+
+    <string name="tips_text">
+    If a fire occurs in your home<br/><br/>
+    <b>GET OUT, AND CALL FOR HELP</b>
+</string>
+
+
+</resources>

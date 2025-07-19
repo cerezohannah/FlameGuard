@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0047AB</color>
+    <color name="purple_700">#0047AB</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="flame">#FF5A00</color>
+    <color name="blue">#005A9C</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="sensorBox">#EEEEEE</color>
+    <color name="sensorBorder">#333333</color>
+
+    <color name="tempText">#B22222</color>
+    <color name="humidityText">#0000CD</color>
+    <color name="smokeText">#FF0000</color>
+
+    <color name="fireBox">#FFA500</color>
+    <color name="smokeBox">#FF6347</color>
+    <color name="gasBox">#1E90FF</color>
+    <color name="emergencyBox">#FFB6C1</color>
+
+    <color name="navBackground">#FFFFFF</color>
+    <color name="textPrimary">#000000</color>
+
+</resources>
