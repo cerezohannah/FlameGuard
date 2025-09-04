@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -63,13 +64,11 @@
             app:layout_constraintTop_toBottomOf="@id/importantNoteTitle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp">
-
                 <ImageView
                     android:id="@+id/noteIcon"
                     android:layout_width="125dp"
@@ -77,8 +76,7 @@
                     android:layout_marginEnd="12dp"
                     android:contentDescription="Warning Icon"
                     android:src="@drawable/safety"
-                     />
-
+                   />
                 <TextView
                     android:id="@+id/noteText"
                     android:layout_width="0dp"
@@ -119,14 +117,12 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/emergencyContactsTitle">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
@@ -134,7 +130,6 @@
                     android:background="#424242"
                     android:scaleType="centerCrop"
                     android:src="@drawable/run" />
-
                 <TextView
                     android:id="@+id/tipText"
                     android:layout_width="138dp"
@@ -158,28 +153,25 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintStart_toEndOf="@id/contactBox1"
             app:layout_constraintTop_toTopOf="@id/contactBox1">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
                     android:layout_marginBottom="8dp"
                     android:background="#424242"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/candle" />
-
+                    android:src="@drawable/alarm" />
                 <TextView
                     android:id="@+id/tipText2"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="6dp"
-                    android:text="Keep an eye on the burning candles"
+                    android:text="Alert others by trigerring the alarm"
                     android:textColor="#F3F4F6"
                     android:textSize="14sp" />
             </LinearLayout>
@@ -197,34 +189,30 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintTop_toBottomOf="@id/contactBox1"
             app:layout_constraintStart_toStartOf="parent">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
                     android:layout_marginBottom="8dp"
                     android:background="#424242"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/matches" />
-
+                    android:src="@drawable/call" />
                 <TextView
                     android:id="@+id/tipText3"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="6dp"
-                    android:text="Keep matches and lighters away from children"
+                    android:text="Call for help or dial emergency services "
                     android:textColor="#F3F4F6"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Contact Box 4 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/contactBox4"
             android:layout_width="162dp"
@@ -235,34 +223,30 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintStart_toEndOf="@id/contactBox3"
             app:layout_constraintTop_toTopOf="@id/contactBox3">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
                     android:layout_marginBottom="8dp"
                     android:background="#424242"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/electric" />
-
+                    android:src="@drawable/evacute" />
                 <TextView
                     android:id="@+id/tipText4"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="6dp"
-                    android:text="Avoid electrical overload"
+                    android:text="Use the nearest exit; avoid elevators"
                     android:textColor="#F3F4F6"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Contact Box 5 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/contactBox5"
             android:layout_width="162dp"
@@ -274,34 +258,30 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintTop_toBottomOf="@id/contactBox3"
             app:layout_constraintStart_toStartOf="parent">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
                     android:layout_marginBottom="8dp"
                     android:background="#424242"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/stove" />
-
+                    android:src="@drawable/low" />
                 <TextView
                     android:id="@+id/tipText5"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:lineSpacingExtra="6dp"
-                    android:text="Never leave your kitchen while cooking"
+                    android:text="Crawl under smoke to avoid inhalation."
                     android:textColor="#F3F4F6"
                     android:textSize="14sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Contact Box 6 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/contactBox6"
             android:layout_width="162dp"
@@ -312,14 +292,12 @@
             app:cardBackgroundColor="#2A2A2A"
             app:layout_constraintStart_toEndOf="@id/contactBox5"
             app:layout_constraintTop_toTopOf="@id/contactBox5">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:orientation="vertical"
                 android:padding="12dp">
-
                 <ImageView
                     android:layout_width="133dp"
                     android:layout_height="127dp"
@@ -327,7 +305,6 @@
                     android:background="#424242"
                     android:scaleType="centerCrop"
                     android:src="@drawable/cigarette" />
-
                 <TextView
                     android:id="@+id/tipText6"
                     android:layout_width="138dp"

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7FA"
+    android:background="#1C1C1C"
     android:padding="24dp">
 
     <LinearLayout
@@ -18,6 +18,7 @@
             android:layout_height="120dp"
             app:cardCornerRadius="60dp"
             app:cardElevation="8dp"
+            app:cardBackgroundColor="#212121"
             android:layout_marginBottom="24dp"
             android:foreground="?attr/selectableItemBackgroundBorderless">
 
@@ -27,7 +28,8 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/outline_3p_24"
-                android:contentDescription="Profile Picture" />
+                android:contentDescription="Profile Picture"
+                app:tint="#F3F4F6" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -38,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="John Doe"
             android:textSize="24sp"
-            android:textColor="#212121"
+            android:textColor="#F3F4F6"
             android:textStyle="bold"
             android:letterSpacing="0.02"
             android:layout_marginBottom="6dp"/>
@@ -50,7 +52,7 @@
             android:layout_height="wrap_content"
             android:text="john.doe@example.com"
             android:textSize="16sp"
-            android:textColor="#666666"
+            android:textColor="#9CA3AF"
             android:layout_marginBottom="32dp"/>
 
         <!-- Buttons -->
@@ -62,9 +64,8 @@
             android:textAllCaps="false"
             android:layout_marginBottom="16dp"
             app:cornerRadius="12dp"
-            app:backgroundTint="#0047AB"
-            app:iconGravity="textStart"
-            android:textColor="#FFFFFF"
+            app:backgroundTint="#333333"
+            android:textColor="#F3F4F6"
             android:elevation="4dp"/>
 
         <com.google.android.material.button.MaterialButton
@@ -75,8 +76,8 @@
             android:textAllCaps="false"
             android:layout_marginBottom="16dp"
             app:cornerRadius="12dp"
-            app:backgroundTint="#0047AB"
-            android:textColor="#FFFFFF"
+            app:backgroundTint="#333333"
+            android:textColor="#F3F4F6"
             android:elevation="4dp"/>
 
         <com.google.android.material.button.MaterialButton
@@ -86,8 +87,8 @@
             android:text="Logout"
             android:textAllCaps="false"
             app:cornerRadius="12dp"
-            app:backgroundTint="#D32F2F"
-            android:textColor="#FFFFFF"
+            app:backgroundTint="#FF5722"
+            android:textColor="#F3F4F6"
             android:elevation="4dp" />
 
     </LinearLayout>
